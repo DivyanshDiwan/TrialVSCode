@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+th, td {
+padding: 10px;
+}
+
+th {
+background-color: #FFB500;
+}
+
+td {
+background-color: #FDDF95;
+}
+
+
+
+.bgimage{
+  /* The image used */
+  background-image:url(images/cgmapblur.jpg);
+  
+  /* Add the blur effect */
+ 
+  
+  /* Full height */
+ 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat:repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  padding: 10px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(255, 251, 251, 0.4); /* Black w/opacity/see-through */
+  width: 600px;
+color: rgb(0, 3, 3);
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+ left: 33%;
+  
+}
+
+.bgtext2 {
+
+  color: black;
+  font-weight: bolder;
+  position: relative;
+  width: 50%;
+  text-align: center;
+  left: 26%;
+}
+ .link:hover{color: rgb(0, 255, 255);
+
+}
+.link:visited{
+  color: rgb(255, 2, 2);
+  text-decoration: none;
+  
+}
+.link:link{color: rgb(25, 0, 255);}
+
+.intro{
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  align-content: center;
+  width: 300px;
+}
+.share{
+  align-content: center;
+  position: relative;
+  left: 50%;
+  
+
+}
+
+</style>
+<script>
+  function myFunction() {
+  var x = document.URL;
+  document.getElementById("jinu").src = 'https://www.facebook.com/plugins/share_button.php?href='+x+'&layout=button_count&size=large&mobile_iframe=true&width=83&height=28&appId';
+ }
+ </script>
+</head>
+<body class="bgimage" onload="myFunction()">
+  
+
+
+ <div class="bg-text">
+  <h1>Minerals found in Chhattisgarh</h1>
+ </div>
+ <div class = "bgtext2">
+  <h2><u>Mineral History of Chhattisgarh</u></h2>
+  <p style="align-content: flex-end;">Chhattisgarh has the perfect geological set up for a number of economic mineral deposits and state is the richest in
+  mineral wealth in country. Important minerals with which the
+  name of the State is intimately associated are Diamond, Coal,
+  Iron ore, Limestone, Dolomite, Bauxite and Tin ore. Tin ore is being produced only in Chhattisgarh
+  amongst Indian states. Atomic minerals and
+  precious metal gold also occur in the State.
+  Other minerals include corundum, clay,
+  quartzite, base metals, fluorite, beryl,
+  andalusite, kyanite, sillimanite, talc,
+  soapstone, and garnet. Vast reserves of
+  granite of various attractive shades, which
+  can be used as decorative stones, are also
+  available in State. </p>
+  <br>
+  <br>
+  <table align="center">
+   <caption><u>LIST OF MINERALS</u></caption>
+   <tr>
+    <th>S.No.</th>
+    <th>Mineral Name</th>
+    <th>Resources(Mt.)</th>
+    <th>Percentage in India</th>
+  </tr>
+   <tr>
+    <th>1</th>
+    <th><a href="ironore.html" class="link">Iron Ore</a></th>
+    <th>4031</th>
+    <th>19.59 %</th>
+   </tr>
+   <tr>
+    <th>2</th>
+    <th><a href="coal.html" class="link">Coal</a></th>
+    <th>54912</th>
+    <th>17.91 %</th>
+   </tr>
+   <tr>
+    <th>3</th>
+    <th><a href="bauxite.html" class="link">Bauxite</a></th>
+    <th>168</th>
+    <th>4.49 %</th>
+   </tr>
+   <tr>
+    <th>4</th>
+    <th><a href="limestone.html" class="link">Limestone</a></th>
+    <th>8959</th>
+    <th>4.84 %</th>
+   </tr>
+   <tr>
+    <th>5.</th>
+    <th><a href="tinore.html" class="link">Tin Ore</a></th>
+    <th>30</th>
+    <th>35.83 %</th>
+   </tr>
+   <tr>
+    <th>6</th>
+    <th><a href="dolomite.html" class="link">Dolomite</a></th>
+    <th>919</th>
+    <th>11.37 %</th>
+   </tr>
+   <tr>
+    <th>7</th>
+    <th><a href="gold.html" class="link">Gold</a></th>
+    <th>5.51</th>
+    <th>0.83 %</th>
+  </tr>
+  
+
+ </table>
+ <br>
+ <br>
+ <br>
+ <br>
+
+</div>
+<div class="intro"><h5>Divyansh Diwan<br>19121019<br>Mining Engineering 4th Semester,NIT Raipur.<br><u>Guided By:</u><br>Dr. D.C. Jhariya</h5></div>
+<div class="share"><iframe id="jinu" src="" width="83" height="28" style="border:none;overflow:hidden" scrolling="no"  frameborder="0" allowTransparency="true"></iframe></div>
+
+</body>
+</html>
